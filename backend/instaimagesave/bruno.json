@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "instaimagesave",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
