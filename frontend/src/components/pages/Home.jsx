@@ -1,5 +1,7 @@
+
 import React, { useState } from 'react';
-import { Container, Typography, TextField, Button, Box, Grid, Paper } from '@mui/material';
+import { Container, Accordion,AccordionSummary,AccordionDetails,Typography, TextField, Button, Box, Grid, Paper } from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import axios from 'axios';
 
 const Home = () => {
@@ -213,6 +215,66 @@ const Home = () => {
                             <Typography variant="body1" align="left" style={{ whiteSpace: 'pre-line' }}>
                             People who don't use photo downloader tool for insta usually they take screenshot for saving any photo. And it's fact that taking screenshot will decrease the photo quality, so if you want to use the photo for some amazing edits, then you can't do it with low quality photo. So that's why insta photo downloader tool is always helpful as it's offer high quality photo in original quality.
                             </Typography>
+                        </Paper>
+                    </Grid>
+
+                    
+                    <Grid item xs={12} md={8}>
+                        <Paper elevation={3} sx={{ padding: 2 }}>
+                            <Typography variant="h4" gutterBottom style={{ color: 'black', fontWeight: 'bold' }}>
+                                FAQs of Profile Downloader
+                            </Typography>
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                                <Typography variant="h6">Is this photo downloader available for free?</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography>
+                                    Yes, of course this tool is available for everyone to use it for absolutely free, there are no charges for using it.
+                                    Also, it's available for unlimited use, so you can use it for as many times as you want.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                                <Typography variant="h6">Can people see when you download photos from Instagram?</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography>
+                                    Since Instagram has launched, there are no features available which will notify when someone download photos, so no people can't see when you download their photos.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                                <Typography variant="h6">Can I download Instagram photo with username?</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography>
+                                    You can download Instagram profile photo with username but talking posts photo so no you can't. You have to use the post's URL to download the photo to your device.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                                <Typography variant="h6">Where are these photos saved after downloading?</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography>
+                                    So whenever you will be download photo those photo will save to the located folder which is located by your browser. But you can change the folder, open browser download page and there will option for changing the save location in file manager.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                                <Typography variant="h6">Can I use this tool on my iPhone?</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography>
+                                    Using this photo downloader tool, there are no specific device required you can use it in any device, So yes you can use this photo downloader on your iPhone with your browser.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
                         </Paper>
                     </Grid>
 
