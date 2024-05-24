@@ -5,6 +5,7 @@ import Header from './components/pages/Header/Header';
 import Footer from './components/pages/Footer/Footer';
 import Reels from './components/pages/Reels';
 import Story  from './components/pages/Story';
+import Profile from './components/pages/Profile';
 
 
 
@@ -18,6 +19,7 @@ function App() {
                     <Route exact path="/" element={<Home/>} />
                     <Route exact path="/reels" element={<Reels/>} />
                     <Route exact path ="/story" element={<Story/>} />
+                    <Route exact path ="/profile" element={<Profile/>} />
                 </Routes>
 				<Footer/>
             </Router>
