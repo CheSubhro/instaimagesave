@@ -138,52 +138,52 @@ const Profile = () => {
                     </Grid>
 
                     <Grid item xs={12} md={8}>
-    <Paper elevation={3} sx={{ padding: 2 }}>
-        <Typography variant="h4" gutterBottom style={{ color: 'black', fontWeight: 'bold' }}>
-            Features of Instagram Profile Downloader
-        </Typography>
-        <Typography variant="body1" align="left" style={{ whiteSpace: 'pre-line' }}>
-            It comes with features that made your insta dp downloading process easy and high quality. The first thing it doesn't require any extension to use while downloading, all its need a browser where you can access easily. It's compatible with each of the device, no matter its phone or PC.
-        </Typography>
-        <Grid container spacing={2} sx={{ display: 'flex', flexWrap: 'wrap' }}>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>High Quality</Typography>
-                    <Typography variant="body1">Usually people take a screenshot for an Instagram profile, but it's not a good option because take will decrease your image quality. And using this tool for saving any Insta dp will give you the original quality..</Typography>
-                </Paper>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>No Sing Up</Typography>
-                    <Typography variant="body1">People use some app to save insta dp where they have to sing up for using the app. And that's where this tool steps in because it don't need any sing up to use, just visit here and put the username to search box and get the profile picture </Typography>
-                </Paper>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Compatible</Typography>
-                    <Typography variant="body1">Having an online tool, you might have thought that is it compatible with my device. But no worries as this tool is useable for any device with just only browser. You can use this with your PC or Mac or whether it's IOS or Android, it can run in any device no matter what.</Typography>
-                </Paper>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>No Extension</Typography>
-                    <Typography variant="body1">Using some online tool it might require a browser extension, but with this dp downloader it doesn't. Just open your browser and visit here to download any instagram dp in just few clicks with using extension.</Typography>
-                </Paper>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Limitless Use</Typography>
-                    <Typography variant="body1">As it's free to use tool for everyone, so might have thought that is there any limit of use. But not it's available for unlimited use no matter how many times you have used for saving any Insta dp. You can use this as many times as you need to save dp from insta.</Typography>
-                </Paper>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
-                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Copy Bio Text</Typography>
-                    <Typography variant="body1">Not only view or save the profile, we have also implemented the copy bio text. Just write or pate the profile username and after the process you can copy the bio as well with view the number of following and followers. So use this web app and get the bio details as well with the profile.</Typography>
-                </Paper>
-            </Grid>
-        </Grid>
-    </Paper>
+                    <Paper elevation={3} sx={{ padding: 2 }}>
+                        <Typography variant="h4" gutterBottom style={{ color: 'black', fontWeight: 'bold' }}>
+                            Features of Instagram Profile Downloader
+                        </Typography>
+                        <Typography variant="body1" align="left" style={{ whiteSpace: 'pre-line' }}>
+                            It comes with features that made your insta dp downloading process easy and high quality. The first thing it doesn't require any extension to use while downloading, all its need a browser where you can access easily. It's compatible with each of the device, no matter its phone or PC.
+                        </Typography>
+                        <Grid container spacing={2} sx={{ display: 'flex', flexWrap: 'wrap' }}>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>High Quality</Typography>
+                                    <Typography variant="body1">Usually people take a screenshot for an Instagram profile, but it's not a good option because take will decrease your image quality. And using this tool for saving any Insta dp will give you the original quality..</Typography>
+                                </Paper>
+                            </Grid>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>No Sing Up</Typography>
+                                    <Typography variant="body1">People use some app to save insta dp where they have to sing up for using the app. And that's where this tool steps in because it don't need any sing up to use, just visit here and put the username to search box and get the profile picture </Typography>
+                                </Paper>
+                            </Grid>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Compatible</Typography>
+                                    <Typography variant="body1">Having an online tool, you might have thought that is it compatible with my device. But no worries as this tool is useable for any device with just only browser. You can use this with your PC or Mac or whether it's IOS or Android, it can run in any device no matter what.</Typography>
+                                </Paper>
+                            </Grid>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>No Extension</Typography>
+                                    <Typography variant="body1">Using some online tool it might require a browser extension, but with this dp downloader it doesn't. Just open your browser and visit here to download any instagram dp in just few clicks with using extension.</Typography>
+                                </Paper>
+                            </Grid>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Limitless Use</Typography>
+                                    <Typography variant="body1">As it's free to use tool for everyone, so might have thought that is there any limit of use. But not it's available for unlimited use no matter how many times you have used for saving any Insta dp. You can use this as many times as you need to save dp from insta.</Typography>
+                                </Paper>
+                            </Grid>
+                            <Grid item xs={12} md={6} sx={{ display: 'flex' }}>
+                                <Paper elevation={3} sx={{ padding: 2, display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                                    <Typography variant="h6" style={{ color: 'black', fontWeight: 'normal' }}>Copy Bio Text</Typography>
+                                    <Typography variant="body1">Not only view or save the profile, we have also implemented the copy bio text. Just write or pate the profile username and after the process you can copy the bio as well with view the number of following and followers. So use this web app and get the bio details as well with the profile.</Typography>
+                                </Paper>
+                            </Grid>
+                        </Grid>
+                    </Paper>
                     </Grid>
 
                     <Grid item xs={12} md={8}>

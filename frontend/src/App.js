@@ -6,6 +6,7 @@ import Footer from './components/pages/Footer/Footer';
 import Reels from './components/pages/Reels';
 import Story  from './components/pages/Story';
 import Profile from './components/pages/Profile';
+import Audio from './components/pages/Audio'
 
 
 
@@ -20,6 +21,7 @@ function App() {
                     <Route exact path="/reels" element={<Reels/>} />
                     <Route exact path ="/story" element={<Story/>} />
                     <Route exact path ="/profile" element={<Profile/>} />
+                    <Route exact path ="/audio" element={<Audio/>} />
                 </Routes>
 				<Footer/>
             </Router>
