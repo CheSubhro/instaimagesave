@@ -1,0 +1,17 @@
+meta {
+  name: getReelsUrl
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8000/api/v1/reels/download
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "url": "https://www.instagram.com/p/C7RK_NupR90/?img_index=1"
+  }
+}
